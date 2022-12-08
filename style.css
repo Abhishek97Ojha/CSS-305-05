@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+    
+}
+.container{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #6fd6ce;
+}
+.left{
+    /* border: 1px solid green; */
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to left,#cbf1ec,#e9fbf9,#e1f8f6,#d3f3ee);
+    color: #406e67;
+    border-top-right-radius: 20px ;
+    border-bottom-right-radius: 20px ;
+}
+.right{
+    /* border: 1px solid blue; */
+    height: 100%;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #406e67;
+}
+.lefttop,.leftbottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 25%;
+    flex-direction: column;
+}
+.lefttop img{
+    border-radius: 40px;
+}
+.leftmiddle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 50%;
+}
+.leftmiddle div{
+    /* border: 1px solid black; */
+    width: 60%;
+    height: 25%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.menu p{
+    /* border: 1px solid red; */
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: 600;
+    font-size: large;
+}
+.menu i{
+    /* border: 1px solid red; */
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leftbottom{
+    flex-direction: row;
+}
+.leftbottom div{
+    /* border: 1px solid red; */
+    width: 40%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: 600;
+    /* border-radius: 20px; */
+    border-top-left-radius: 20px ;
+    border-bottom-left-radius: 20px ;
+    background-color: #7ac2b7;
+    color: white;
+}
+.leftbottom p{
+    padding: 18px;
+}
+.leftbottomdiv{
+    width: 40%;
+    height: 60%;
+    border-top-right-radius: 20px ;
+    border-bottom-right-radius: 20px ; 
+}
+.leftbottomdiv img{
+    border-top-right-radius: 20px ;
+    border-bottom-right-radius: 20px ;  
+}
+.righttop{
+    /* border:1px solid red; */
+    width: 85%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+h1{
+    font-size: 42px;
+}
+input{
+    width: 35%;
+    height: 13%;
+    border-radius: 12px;
+    background: linear-gradient(to left,#cbf1ec,#e9fbf9,#e1f8f6,#d3f3ee);
+    box-shadow: inset 0px 5px 10px 0px #6dc9bd;
+    border: none;
+    
+}
+.rightdown{
+    /* border: 1px solid red; */
+    width: 85%;
+    height: 75%;
+}
+.player{
+    /* border: 1px solid blue; */
+    width: 100%;
+    height: 83%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.card{
+    /* border: 1px solid green; */
+    width: 100%;
+    height: 28%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    background: linear-gradient(to left,#aaf0e6,#caeeea,#b1ece7,#b7e5df,#b1ece7);
+    box-shadow: 0 10px 68px 0 #7bb4ac;
+}
+.card1{
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 17%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card1 img{
+    border-radius: 20px;
+}
+.card2{
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.card2 input{
+    width: 78%;
+    height: 20%;
+    background: #6abeb2;
+    border: none;
+    box-shadow: inset 0px 5px 10px 0px #243a37;
+}
+.card3{
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 17%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.card3 h2{
+    padding-top: 15px;
+}
